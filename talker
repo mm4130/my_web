@@ -1,0 +1,71 @@
+<html>
+	<head>
+<script  language="JavaScript" >
+function alerta(n3){
+document.alee.foro.value = n3
+}
+function qu(n2) {
+if(n2 =="are you robot?"){
+alerta("no!I am a script!")
+}
+else if(n2 == "are you haker?"){
+alerta("no! never!! I am a funy script for your website!")
+}
+else if (n2 == "talk one to ten"){
+alert ("Ok!")
+alert ("I'm going to start Now!")
+alert ("1,one")
+alert ("2,two")
+alert ("3, three")
+alert ("4,four")
+alert ("5, five")
+alert ("6,six")
+alert ("7,seven")
+alert ("8, eghit")
+alert("9,nine")
+alert ("10,ten")
+alert ("finished!")
+}
+else if (n2 == "hi"){
+alerta("Hello my friend!!")
+}
+else if (n2=="how are you?"){
+alerta("I'm fine honey:  :-*")
+}
+else if (n2 == "/creator"){
+alerta(" Mr.Parsa.Ghafoori⁦(+_+)⁩")
+}
+//it's empty!!!!!!
+else if (n2 == "") {
+alerta(" it's empty!")
+}
+else if(n2 == "haked" ){
+alerta("I never haked!")
+}
+else alert ("I don't know!")
+}
+function showT( n1) {
+if (n1 == "here"){
+alert("only enter your question plz!")
+} else qu(n1)
+}
+</script>
+		<title>html</title>
+	</head>
+	<body >
+<hr color="yellow">
+<u><b><i>enter your question:</i></b></u>
+<form name="fmf">
+<input name="forin" , value="here">
+<hr color="fuchsia">
+<input type="button" name="bub" value ="Click Here!" onClick=showT(document.fmf.forin.value)>
+<hr color="aqua">
+</form>
+<i><b><u>Script's answer:</u></b><i>
+<form name="alee">
+<input name="foro" , value="here">
+</form>
+<marquee bgcolor="Red" color="blue">iKD Company&#153; </marquee>
+<a href="https://t.me/anti_spam_group">our channel</a>
+	</body>
+</html>
