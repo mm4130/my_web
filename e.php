@@ -44,7 +44,7 @@
         $SUSER = $update->message->from->username;
         $SUSERID = $update->message->chat->id;
 $STIME = file_get_contents("http://ara-parsa.ir/telegram/date.php");
-$TEXT = isset($update->message->text)?$update->message->text:'';
+
 	//------------
 	$_sticker = file_get_contents("data/setting/sticker.txt");
 	$_video = file_get_contents("data/setting/video.txt");
@@ -123,10 +123,9 @@ $TEXT = isset($update->message->text)?$update->message->text:'';
         makereq('editMessageText',[
             'chat_id'=>$chat_id,
             'message_id'=>$message_id,
-            'text'=>"به تنظیمات روبات خوش آمدید.
-
- 🚫 = قفل شده.
- ✅ = آزاد",
+            'text'=>"`به بخش تنظيمات شيشه اي روبات خوش آمديد🛰
+ 🚫 = قفل.
+ ✅ = آزاد"."`",
             'reply_markup'=>json_encode([
                 'inline_keyboard'=>[
                     			[
@@ -166,10 +165,9 @@ $TEXT = isset($update->message->text)?$update->message->text:'';
         makereq('editMessageText',[
             'chat_id'=>$chat_id,
             'message_id'=>$message_id,
-            'text'=>"به تنظیمات روبات خوش آمدید.
-
- 🚫 = قفل شده.
- ✅ = آزاد",
+            'text'=>"`به بخش تنظيمات شيشه اي روبات خوش آمديد🛰
+ 🚫 = قفل.
+ ✅ = آزاد"."`",
             'reply_markup'=>json_encode([
                 'inline_keyboard'=>[
                     			[
@@ -209,10 +207,9 @@ $TEXT = isset($update->message->text)?$update->message->text:'';
         makereq('editMessageText',[
             'chat_id'=>$chat_id,
             'message_id'=>$message_id,
-            'text'=>"به تنظیمات روبات خوش آمدید.
-
- 🚫 = قفل شده.
- ✅ = آزاد",
+            'text'=>"`به بخش تنظيمات شيشه اي روبات خوش آمديد🛰
+ 🚫 = قفل.
+ ✅ = آزاد"."`",
             'reply_markup'=>json_encode([
                 'inline_keyboard'=>[
                     			[
@@ -251,10 +248,9 @@ $TEXT = isset($update->message->text)?$update->message->text:'';
         makereq('editMessageText',[
             'chat_id'=>$chat_id,
             'message_id'=>$message_id,
-            'text'=>"به تنظیمات روبات خوش آمدید.
-
- 🚫 = قفل شده.
- ✅ = آزاد",
+            'text'=>"`به بخش تنظيمات شيشه اي روبات خوش آمديد🛰
+ 🚫 = قفل.
+ ✅ = آزاد"."`",
             'reply_markup'=>json_encode([
                 'inline_keyboard'=>[
                     			[
@@ -294,10 +290,9 @@ $TEXT = isset($update->message->text)?$update->message->text:'';
         makereq('editMessageText',[
             'chat_id'=>$chat_id,
             'message_id'=>$message_id,
-            'text'=>"به تنظیمات روبات خوش آمدید.
-
- 🚫 = قفل شده.
- ✅ = آزاد",
+            'text'=>"`به بخش تنظيمات شيشه اي روبات خوش آمديد🛰
+ 🚫 = قفل.
+ ✅ = آزاد"."`",
             'reply_markup'=>json_encode([
                 'inline_keyboard'=>[
                     			[
@@ -337,10 +332,9 @@ $TEXT = isset($update->message->text)?$update->message->text:'';
         makereq('editMessageText',[
             'chat_id'=>$chat_id,
             'message_id'=>$message_id,
-            'text'=>"به تنظیمات روبات خوش آمدید.
-
- 🚫 = قفل شده.
- ✅ = آزاد",
+            'text'=>"`به بخش تنظيمات شيشه اي روبات خوش آمديد🛰
+ 🚫 = قفل.
+ ✅ = آزاد"."`",
             'reply_markup'=>json_encode([
                 'inline_keyboard'=>[
                     			[
@@ -379,10 +373,9 @@ $TEXT = isset($update->message->text)?$update->message->text:'';
         makereq('editMessageText',[
             'chat_id'=>$chat_id,
             'message_id'=>$message_id,
-            'text'=>"به تنظیمات روبات خوش آمدید.
-
- 🚫 = قفل شده.
- ✅ = آزاد",
+            'text'=>"`به بخش تنظيمات شيشه اي روبات خوش آمديد🛰
+ 🚫 = قفل.
+ ✅ = آزاد"."`",
             'reply_markup'=>json_encode([
                 'inline_keyboard'=>[
                     			[
@@ -421,10 +414,9 @@ $TEXT = isset($update->message->text)?$update->message->text:'';
         makereq('editMessageText',[
             'chat_id'=>$chat_id,
             'message_id'=>$message_id,
-            'text'=>"به تنظیمات روبات خوش آمدید.
-
- 🚫 = قفل شده.
- ✅ = آزاد",
+            'text'=>"`به بخش تنظيمات شيشه اي روبات خوش آمديد🛰
+ 🚫 = قفل.
+ ✅ = آزاد"."`",
             'reply_markup'=>json_encode([
                 'inline_keyboard'=>[
                     			[
@@ -464,10 +456,9 @@ $TEXT = isset($update->message->text)?$update->message->text:'';
         makereq('editMessageText',[
             'chat_id'=>$chat_id,
             'message_id'=>$message_id,
-            'text'=>"به تنظیمات روبات خوش آمدید.
-
- 🚫 = قفل شده.
- ✅ = آزاد",
+            'text'=>"`به بخش تنظيمات شيشه اي روبات خوش آمديد🛰
+ 🚫 = قفل.
+ ✅ = آزاد"."`",
             'reply_markup'=>json_encode([
                 'inline_keyboard'=>[
                     			[
@@ -506,10 +497,9 @@ $TEXT = isset($update->message->text)?$update->message->text:'';
         makereq('editMessageText',[
             'chat_id'=>$chat_id,
             'message_id'=>$message_id,
-            'text'=>"به تنظیمات روبات خوش آمدید.
-
- 🚫 = قفل شده.
- ✅ = آزاد",
+            'text'=>"`به بخش تنظيمات شيشه اي روبات خوش آمديد🛰
+ 🚫 = قفل.
+ ✅ = آزاد"."`",
             'reply_markup'=>json_encode([
                 'inline_keyboard'=>[
                     			[
@@ -549,10 +539,9 @@ $TEXT = isset($update->message->text)?$update->message->text:'';
         makereq('editMessageText',[
             'chat_id'=>$chat_id,
             'message_id'=>$message_id,
-            'text'=>"به تنظیمات روبات خوش آمدید.
-
- 🚫 = قفل شده.
- ✅ = آزاد",
+            'text'=>"`به بخش تنظيمات شيشه اي روبات خوش آمديد🛰
+ 🚫 = قفل.
+ ✅ = آزاد"."`",
             'reply_markup'=>json_encode([
                 'inline_keyboard'=>[
                     			[
@@ -591,10 +580,9 @@ $TEXT = isset($update->message->text)?$update->message->text:'';
         makereq('editMessageText',[
             'chat_id'=>$chat_id,
             'message_id'=>$message_id,
-            'text'=>"به تنظیمات روبات خوش آمدید.
-
- 🚫 = قفل شده.
- ✅ = آزاد",
+            'text'=>"`به بخش تنظيمات شيشه اي روبات خوش آمديد🛰
+ 🚫 = قفل.
+ ✅ = آزاد"."`",
             'reply_markup'=>json_encode([
                 'inline_keyboard'=>[
                     			[
@@ -635,10 +623,9 @@ $TEXT = isset($update->message->text)?$update->message->text:'';
         makereq('editMessageText',[
             'chat_id'=>$chat_id,
             'message_id'=>$message_id,
-            'text'=>"به تنظیمات روبات خوش آمدید.
-
- 🚫 = قفل شده.
- ✅ = آزاد",
+            'text'=>"`به بخش تنظيمات شيشه اي روبات خوش آمديد🛰
+ 🚫 = قفل.
+ ✅ = آزاد"."`",
             'reply_markup'=>json_encode([
                 'inline_keyboard'=>[
                     			[
@@ -678,10 +665,9 @@ $TEXT = isset($update->message->text)?$update->message->text:'';
         makereq('editMessageText',[
             'chat_id'=>$chat_id,
             'message_id'=>$message_id,
-            'text'=>"به تنظیمات روبات خوش آمدید.
-
- 🚫 = قفل شده.
- ✅ = آزاد",
+            'text'=>"`به بخش تنظيمات شيشه اي روبات خوش آمديد🛰
+ 🚫 = قفل.
+ ✅ = آزاد"."`",
             'reply_markup'=>json_encode([
                 'inline_keyboard'=>[
                     			[
@@ -721,10 +707,9 @@ $TEXT = isset($update->message->text)?$update->message->text:'';
         makereq('editMessageText',[
             'chat_id'=>$chat_id,
             'message_id'=>$message_id,
-            'text'=>"به تنظیمات روبات خوش آمدید.
-
- 🚫 = قفل شده.
- ✅ = آزاد",
+            'text'=>"`به بخش تنظيمات شيشه اي روبات خوش آمديد🛰
+ 🚫 = قفل.
+ ✅ = آزاد"."`",
             'reply_markup'=>json_encode([
                 'inline_keyboard'=>[
                     			[
@@ -763,10 +748,9 @@ $TEXT = isset($update->message->text)?$update->message->text:'';
         makereq('editMessageText',[
             'chat_id'=>$chat_id,
             'message_id'=>$message_id,
-            'text'=>"به تنظیمات روبات خوش آمدید.
-
- 🚫 = قفل شده.
- ✅ = آزاد",
+            'text'=>"`به بخش تنظيمات شيشه اي روبات خوش آمديد🛰
+ 🚫 = قفل.
+ ✅ = آزاد"."`",
             'reply_markup'=>json_encode([
                 'inline_keyboard'=>[
                     			[
@@ -918,27 +902,30 @@ makereq('leaveChat',[
 	]);
 	}
         
-	elseif($textmessage == '🏠 برگشت به صفحه اصلی') {
+	elseif($textmessage == '🏘منوي اصلي🏠') {
 	save($from_id."/step.txt","none");
 	if ($type == "admin") {
 	
 		var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"*Home : *",
+        	'text'=>"_منوي اصلي〽️_",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
-            	'keyboard'=>[
+'keyboard'=>[
                 [
-                   ['text'=>"🗣 پیام همگانی"],['text'=>"⚓️ راهنما"],['text'=>"⚙ تنظیمات"]
+                   ['text'=>"🔈پيام همگاني📣"],['text'=>"⚓️ راهنما"],['text'=>"⚙ تنظیمات"]
                 ],
                 [
-                   ['text'=>"▶️ ویرایش پیام استارت"],['text'=>"⏸ ویرایش پیام پیشفرض"]
+                   ['text'=>"🎾 ویرایش پیام استارت"],['text'=>"⚽️ ویرایش پیام پیشفرض"]
                 ],
                 [
-                   ['text'=>"👥 آمار"],['text'=>"ارتقا ربات"],['text'=>"⚫️ لیست سیاه"]
+                   ['text'=>"🌴 آمار"],['text'=>"💪ارتقا ربات🔝"],['text'=>"⚫️ لیست سیاه"]
                 ],
                 [
-                   ['text'=>"☎️  تنظیمات کانتکت"],['text'=>"👤 پروفایل"],['text'=>"امکانات ویژه"]
+                   ['text'=>"☎️تنظیمات کانتکت"],['text'=>"📬 پروفایل"]
+                ],
+		  [
+                   ['text'=>"🔰امکانات ویژه"],['text'=>"🗓تاريخ و زمان"]
                 ]
             	],
             	'resize_keyboard'=>true
@@ -948,12 +935,21 @@ makereq('leaveChat',[
     		else {
     		var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"*Home : *",
+        	'text'=>"_منوي اصلي〽️_",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
-            	'keyboard'=>[
+            'keyboard'=>[
                 [
-                   ['text'=>"👤 پروفایل"]
+                   ['text'=>"📬 پروفایل"]
+                ],
+		  [
+                   ['text'=>'🌎ارسال مكان' , 'request_location' => true]
+                ],
+		[
+                   ['text'=>'☎️ارسال شماره تلفن' , 'request_contact' => true]
+                ],
+		[
+                   ['text'=>"🗓تاريخ و زمان"],['text'=>"🎖مشخصات شما"]
                 ]
             	],
             	'resize_keyboard'=>true
@@ -965,15 +961,13 @@ makereq('leaveChat',[
 		save($from_id."/step.txt","set answer");
 		var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"Javb ra vared konid
-			Mesal : 
-			*Salam Khubi ?*",
+        	'text'=>"_جواب را ارسال كنيد☄️:_",
 			'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
 				
                  [
-                   ['text'=>'🏠 برگشت به منوي اصلی']
+                   ['text'=>'🏘منوي اصلي🏠']
                 ]
             	],
             	'resize_keyboard'=>true
@@ -993,17 +987,16 @@ makereq('leaveChat',[
 		
 		var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"Save Shd
-			Yek Gozine Ra Entekhab Konid : 
-			",
+        	'text'=>"_ذخيره شد✅!
+يك گزينه را انتخاب كنيد:_",
 			'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
 				[
-                   ['text'=>'اضافه کردن کلمه'],['text'=>'حذف کلمه']
+                   ['text'=>'اضافه کردن➕'],['text'=>'حذف كردن➖']
                 ],
                  [
-                   ['text'=>'🏠 برگشت به صفحه اصلی']
+                   ['text'=>'🏘منوي اصلي🏠']
                 ]
             	],
             	'resize_keyboard'=>true
@@ -1017,17 +1010,15 @@ makereq('leaveChat',[
 			unlink("data/words/$textmessage.txt");
 			var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"Delete Shd
-			Yek Gozine Ra Entekhab Konid : 
-			",
+        	'text'=>"_⛰كلمه اي كه مي خواهيد حذف شود را ارسال كنيد:_",
 			'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
 				[
-                   ['text'=>'اضافه کردن کلمه'],['text'=>'حذف کلمه']
+                   ['text'=>'اضافه کردن➕'],['text'=>'حذف كردن➖']
                 ],
                  [
-                   ['text'=>'🏠 برگشت به صفحه اصلی']
+                   ['text'=>'🏘منوي اصلي🏠']
                 ]
             	],
             	'resize_keyboard'=>true
@@ -1041,10 +1032,10 @@ makereq('leaveChat',[
 			$forward_id = file_get_contents("data/forward_id.txt");
 			Forward($forward_id,$chat_id,$message_id);
 			save($from_id."/step.txt","none");
-			SendMessage($chat_id,"فروارد  شد !");
+			SendMessage($chat_id,"_فروارد شد!📍_");
 			}
 			else {
-				SendMessage($chat_id,"یک پیام را فروارد کنید !");
+				SendMessage($chat_id,"_يك پيام را جهت فروارد ارسال كنيد:🎍_");
 			}
 		}
 	elseif ($step== 'Set Age' && $type == 'admin') {
@@ -1052,21 +1043,24 @@ makereq('leaveChat',[
 	save($from_id."/step.txt","none");
 	var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"Changed",
+        	'text'=>"_اپديت شد!✅_",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
-            	'keyboard'=>[
-                 [
-                   ['text'=>"🗣 پیام همگانی"],['text'=>"⚓️ راهنما"],['text'=>"⚙ تنظیمات"]
+'keyboard'=>[
+                [
+                   ['text'=>"🔈پيام همگاني📣"],['text'=>"⚓️ راهنما"],['text'=>"⚙ تنظیمات"]
                 ],
                 [
-                   ['text'=>"▶️ ویرایش پیام استارت"],['text'=>"⏸ ویرایش پیام پیشفرض"]
+                   ['text'=>"🎾 ویرایش پیام استارت"],['text'=>"⚽️ ویرایش پیام پیشفرض"]
                 ],
                 [
-                   ['text'=>"👥 آمار"],['text'=>"ارتقا ربات"],['text'=>"⚫️ لیست سیاه"]
+                   ['text'=>"🌴 آمار"],['text'=>"💪ارتقا ربات🔝"],['text'=>"⚫️ لیست سیاه"]
                 ],
                 [
-                   ['text'=>"☎️  تنظیمات کانتکت"],['text'=>"👤 پروفایل"],['text'=>"امکانات ویژه"]
+                   ['text'=>"☎️تنظیمات کانتکت"],['text'=>"📬 پروفایل"]
+                ],
+		  [
+                   ['text'=>"🔰امکانات ویژه"],['text'=>"🗓تاريخ و زمان"]
                 ]
             	],
             	'resize_keyboard'=>true
@@ -1079,21 +1073,24 @@ makereq('leaveChat',[
 	save($from_id."/step.txt","none");
 	var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"Changed",
+        	'text'=>"_اپديت شد!✅_",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
-            	'keyboard'=>[
-                 [
-                   ['text'=>"🗣 پیام همگانی"],['text'=>"⚓️ راهنما"],['text'=>"⚙ تنظیمات"]
+'keyboard'=>[
+                [
+                   ['text'=>"🔈پيام همگاني📣"],['text'=>"⚓️ راهنما"],['text'=>"⚙ تنظیمات"]
                 ],
                 [
-                   ['text'=>"▶️ ویرایش پیام استارت"],['text'=>"⏸ ویرایش پیام پیشفرض"]
+                   ['text'=>"🎾 ویرایش پیام استارت"],['text'=>"⚽️ ویرایش پیام پیشفرض"]
                 ],
                 [
-                   ['text'=>"👥 آمار"],['text'=>"ارتقا ربات"],['text'=>"⚫️ لیست سیاه"]
+                   ['text'=>"🌴 آمار"],['text'=>"💪ارتقا ربات🔝"],['text'=>"⚫️ لیست سیاه"]
                 ],
                 [
-                   ['text'=>"☎️  تنظیمات کانتکت"],['text'=>"👤 پروفایل"],['text'=>"امکانات ویژه"]
+                   ['text'=>"☎️تنظیمات کانتکت"],['text'=>"📬 پروفایل"]
+                ],
+		  [
+                   ['text'=>"🔰امکانات ویژه"],['text'=>"🗓تاريخ و زمان"]
                 ]
             	],
             	'resize_keyboard'=>true
@@ -1106,21 +1103,24 @@ makereq('leaveChat',[
 	save($from_id."/step.txt","none");
 	var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"Changed",
+        	'text'=>"_اپديت شد!✅_",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
-            	'keyboard'=>[
-                 [
-                   ['text'=>"🗣 پیام همگانی"],['text'=>"⚓️ راهنما"],['text'=>"⚙ تنظیمات"]
+'keyboard'=>[
+                [
+                   ['text'=>"🔈پيام همگاني📣"],['text'=>"⚓️ راهنما"],['text'=>"⚙ تنظیمات"]
                 ],
                 [
-                   ['text'=>"▶️ ویرایش پیام استارت"],['text'=>"⏸ ویرایش پیام پیشفرض"]
+                   ['text'=>"🎾 ویرایش پیام استارت"],['text'=>"⚽️ ویرایش پیام پیشفرض"]
                 ],
                 [
-                   ['text'=>"👥 آمار"],['text'=>"ارتقا ربات"],['text'=>"⚫️ لیست سیاه"]
+                   ['text'=>"🌴 آمار"],['text'=>"💪ارتقا ربات🔝"],['text'=>"⚫️ لیست سیاه"]
                 ],
                 [
-                   ['text'=>"☎️  تنظیمات کانتکت"],['text'=>"👤 پروفایل"],['text'=>"امکانات ویژه"]
+                   ['text'=>"☎️تنظیمات کانتکت"],['text'=>"📬 پروفایل"]
+                ],
+		  [
+                   ['text'=>"🔰امکانات ویژه"],['text'=>"🗓تاريخ و زمان"]
                 ]
             	],
             	'resize_keyboard'=>true
@@ -1129,14 +1129,14 @@ makereq('leaveChat',[
     		save("profile/bio.txt","$textmessage");
 	}
 	elseif ($step== 'Send To All' && $type == 'admin') {
-		SendMessage($chat_id,"Sending Message....");
+		SendMessage($chat_id,"_درحال ارسال...._");
 		save($from_id."/step.txt","none");
 		$fp = fopen( "data/users.txt", 'r');
 		while( !feof( $fp)) {
  			$users = fgets( $fp);
 			SendMessage($users,$textmessage);
 		}
-		SendMessage($chat_id,"Message Was Sent To All Members!");
+		SendMessage($chat_id,"_پيام به همه اعضا ارسال شد!🏧_");
 		
 	}
 	elseif ($step== 'Edit Start Text' && $type == 'admin') {
@@ -1144,21 +1144,24 @@ makereq('leaveChat',[
 		save("start_txt.txt",$textmessage);
 		var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"پیام استارت شما تغییر یافت.",
+        	'text'=>"_پيام استارت با موفقيت تغيير يافت!💹_",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
-            	'keyboard'=>[
-                 [
-                   ['text'=>"🗣 پیام همگانی"],['text'=>"⚓️ راهنما"],['text'=>"⚙ تنظیمات"]
+'keyboard'=>[
+                [
+                   ['text'=>"🔈پيام همگاني📣"],['text'=>"⚓️ راهنما"],['text'=>"⚙ تنظیمات"]
                 ],
                 [
-                   ['text'=>"▶️ ویرایش پیام استارت"],['text'=>"⏸ ویرایش پیام پیشفرض"]
+                   ['text'=>"🎾 ویرایش پیام استارت"],['text'=>"⚽️ ویرایش پیام پیشفرض"]
                 ],
                 [
-                   ['text'=>"👥 آمار"],['text'=>"ارتقا ربات"],['text'=>"⚫️ لیست سیاه"]
+                   ['text'=>"🌴 آمار"],['text'=>"💪ارتقا ربات🔝"],['text'=>"⚫️ لیست سیاه"]
                 ],
                 [
-                   ['text'=>"☎️  تنظیمات کانتکت"],['text'=>"👤 پروفایل"],['text'=>"امکانات ویژه"]
+                   ['text'=>"☎️تنظیمات کانتکت"],['text'=>"📬 پروفایل"]
+                ],
+		  [
+                   ['text'=>"🔰امکانات ویژه"],['text'=>"🗓تاريخ و زمان"]
                 ]
             	],
             	'resize_keyboard'=>true
@@ -1170,21 +1173,24 @@ makereq('leaveChat',[
 		save($from_id."/step.txt","none");
 		var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"پیام پیشفرض شما تنظيم شد.",
+        	'text'=>"_پيام پيشفرض با موفقيت تغيير يافت!💹_",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
-            	'keyboard'=>[
-                 [
-                   ['text'=>"🗣 پیام همگانی"],['text'=>"⚓️ راهنما"],['text'=>"⚙ تنظیمات"]
+'keyboard'=>[
+                [
+                   ['text'=>"🔈پيام همگاني📣"],['text'=>"⚓️ راهنما"],['text'=>"⚙ تنظیمات"]
                 ],
                 [
-                   ['text'=>"▶️ ویرایش پیام استارت"],['text'=>"⏸ ویرایش پیام پیشفرض"]
+                   ['text'=>"🎾 ویرایش پیام استارت"],['text'=>"⚽️ ویرایش پیام پیشفرض"]
                 ],
                 [
-                   ['text'=>"👥 آمار"],['text'=>"ارتقا ربات"],['text'=>"⚫️ لیست سیاه"]
+                   ['text'=>"🌴 آمار"],['text'=>"💪ارتقا ربات🔝"],['text'=>"⚫️ لیست سیاه"]
                 ],
                 [
-                   ['text'=>"☎️  تنظیمات کانتکت"],['text'=>"👤 پروفایل"],['text'=>"امکانات ویژه"]
+                   ['text'=>"☎️تنظیمات کانتکت"],['text'=>"📬 پروفایل"]
+                ],
+		  [
+                   ['text'=>"🔰امکانات ویژه"],['text'=>"🗓تاريخ و زمان"]
                 ]
             	],
             	'resize_keyboard'=>true
@@ -1198,19 +1204,19 @@ makereq('leaveChat',[
 		
 	}
 	
-	elseif ($textmessage == 'امکانات ویژه' && $from_id == $admin) {
+	elseif ($textmessage == '🔰امکانات ویژه' && $from_id == $admin) {
 		if ($bottype == 'gold') {
 			var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"به بخش امکانات ویژه خوش امدید",
+        	'text'=>"_به بخش امكانات ويژه خوش آمديد:🍟_",
 			'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
 				[
-                   ['text'=>'🗣 تنظیمات پاسخ خودکار'],['text'=>'تنظیمات دکمه ها']
+                   ['text'=>'پاسخ سريع💦'],['text'=>'به زودي...']
                 ],
                  [
-                   ['text'=>'🏠 برگشت به صفحه اصلی']
+                   ['text'=>'🏘منوي اصلي🏠']
                 ]
             	],
             	'resize_keyboard'=>true
@@ -1218,39 +1224,39 @@ makereq('leaveChat',[
     		]));
         }
 		else {
-			SendMessage($chat_id,"ربات شما رایگان است .");
+			SendMessage($chat_id,"روبات شما رايگان است😭");
 		}
 	}
-	elseif ($textmessage == 'حذف کلمه' && $from_id == $admin) {
+	elseif ($textmessage == 'حذف كردن➖' && $from_id == $admin) {
 				save($from_id."/step.txt","del words");
 
 		var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"Kalame Mored Nazar ra vared konid",
+        	'text'=>"_كلمه مورد نظر را جهت حذف ارسال نماييد:🎍_",
 			'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
                  [
-                   ['text'=>'🏠 برگشت به صفحه اصلی']
+                   ['text'=>'🏘منوي اصلي🏠']
                 ]
             	],
             	'resize_keyboard'=>true
        		])
     		]));
 	}
-	elseif ($textmessage == '🗣 تنظیمات پاسخ خودکار' && $bottype == 'gold' && $from_id == $admin) {
+	elseif ($textmessage == 'پاسخ سريع💦' && $bottype == 'gold' && $from_id == $admin) {
 
 		var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"Yek Gozine Ra Entekhab Konid : ",
+        	'text'=>"_يك گزينه را انتخاب كنيد:⛺️_",
 			'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
 				[
-                   ['text'=>'اضافه کردن کلمه'],['text'=>'حذف کلمه']
+                   ['text'=>'اضافه کردن➕'],['text'=>'حذف كردن➖']
                 ],
                  [
-                   ['text'=>'🏠 برگشت به صفحه اصلی']
+                   ['text'=>'🏘منوي اصلي🏠']
                 ]
             	],
             	'resize_keyboard'=>true
@@ -1258,7 +1264,7 @@ makereq('leaveChat',[
     		]));
 		
 	}
-	elseif ($textmessage == 'اضافه کردن کلمه' && $bottype == 'gold' && $from_id == $admin) {
+	elseif ($textmessage == 'اضافه کردن➕' && $bottype == 'gold' && $from_id == $admin) {
 				save($from_id."/step.txt","set word");
 		var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
@@ -1270,7 +1276,7 @@ makereq('leaveChat',[
             	'keyboard'=>[
 				
                  [
-                   ['text'=>'🏠 برگشت به صفحه اصلی']
+                   ['text'=>'🏘منوي اصلي🏠']
                 ]
             	],
             	'resize_keyboard'=>true
@@ -1278,20 +1284,20 @@ makereq('leaveChat',[
     		]));
 	}
 	
-	elseif ($textmessage == '▶️ ویرایش پیام استارت' && $from_id == $admin) {
+	elseif ($textmessage == '🎾 ویرایش پیام استارت' && $from_id == $admin) {
 	$sttxt = file_get_contents("data/start_txt.txt");
 	save($from_id."/step.txt","Edit Start Text");
 	var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"*Change Start Text*
-	last Message Delivery text : 
-	`".$sttxt."`
-	*Please* Write New Start Text ♥",
+        	'text'=>"_ويرايش متن استارت🎾.
+ متن كنوني: ️⛳️_
+".$sttxt."
+_ لطفا متن جديد را ارسال كنيد. ♥️_",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
                 [
-                   ['text'=>'🏠 برگشت به صفحه اصلی']
+                   ['text'=>'🏘منوي اصلي🏠']
                 ]
             	],
             	'resize_keyboard'=>true
@@ -1299,20 +1305,20 @@ makereq('leaveChat',[
     		]));
 	}
 	
-	elseif ($textmessage == '⏸ ویرایش پیام پیشفرض' && $from_id == $admin) {
+	elseif ($textmessage == '⚽️ ویرایش پیام پیشفرض' && $from_id == $admin) {
 	$sttxt = file_get_contents("data/pmsend_txt.txt");
 	save($from_id."/step.txt","Edit Message Delivery");
 	var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"*Change Message Delivery Text*
-	last start text : 
-	`".$sttxt."`
-	*Please* Write New Message Delivery Text ♥",
+        	'text'=>"_ويرايش متن پيشفرض️⚽️.
+ متن كنوني: ️⛳️_
+".$sttxt."
+ _لطفا متن جديد را ارسال كنيد. ♥️_",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
                 [
-                   ['text'=>'🏠 برگشت به صفحه اصلی']
+                   ['text'=>'🏘منوي اصلي🏠']
                 ]
             	],
             	'resize_keyboard'=>true
@@ -1324,9 +1330,8 @@ makereq('leaveChat',[
 	
 	var_dump(makereq('sendMessage',[
 			'chat_id'=>$update->message->chat->id,
-			'text'=>"به تنظیمات روبات خوش آمدید.
-`
- 🚫 = قفل شده.
+			'text'=>"`به بخش تنظيمات شيشه اي روبات خوش آمديد🛰
+ 🚫 = قفل.
  ✅ = آزاد"."`",
 			'parse_mode'=>'MarkDown',
 			'reply_markup'=>json_encode([
@@ -1361,7 +1366,7 @@ makereq('leaveChat',[
 	
 	}
 	
-	elseif ($textmessage == '👁 شماره ی من رو نشون بده' && $from_id == $admin) {
+	elseif ($textmessage == 'ارسال شماره من📱' && $from_id == $admin) {
 	$anumber = file_get_contents("data/profile/number.txt");
 	$aname= file_get_contents("data/profile/cname.txt");
 	makereq('sendContact',[
@@ -1370,16 +1375,16 @@ makereq('leaveChat',[
 	'first_name'=>$aname
 	]);
 	}
-	elseif ($textmessage == 'سن' && $from_id == $admin) {
+	elseif ($textmessage == 'سن⚡️' && $from_id == $admin) {
 	save($from_id."/step.txt","Set Age");
 	var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"Please Write Your Age Now!",
+        	'text'=>"🔸لطفا سن خود را ارسال كنيد:",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
                 [
-                   ['text'=>'🏠 برگشت به صفحه اصلی']
+                   ['text'=>'🏘منوي اصلي🏠']
                 ]
             	],
             	'resize_keyboard'=>true
@@ -1387,16 +1392,16 @@ makereq('leaveChat',[
     		]));
 	}
 	
-	elseif ($textmessage == 'نام' && $from_id == $admin) {
+	elseif ($textmessage == 'نام⚡️' && $from_id == $admin) {
 	save($from_id."/step.txt","Set Name");
 	var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"Please Write Your Name Now!",
+        	'text'=>"🔹لطفا نام خود را ارسال كنيد:",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
                 [
-                   ['text'=>'🏠 برگشت به صفحه اصلی']
+                  ['text'=>'🏘منوي اصلي🏠']
                 ]
             	],
             	'resize_keyboard'=>true
@@ -1404,16 +1409,16 @@ makereq('leaveChat',[
     		]));
 	}
 	
-	elseif ($textmessage == 'درباره شما' && $from_id == $admin) {
+	elseif ($textmessage == 'بيوگرافي⚡️' && $from_id == $admin) {
 	save($from_id."/step.txt","Set Bio");
 	var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"Please Write Your Biography Now!",
+        	'text'=>"🔺لطفا يك بيو گرافي از خود ارسال كنيد:",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
                 [
-                   ['text'=>'🏠 برگشت به صفحه اصلی']
+                   ['text'=>'🏘منوي اصلي🏠']
                 ]
             	],
             	'resize_keyboard'=>true
@@ -1425,7 +1430,7 @@ makereq('leaveChat',[
 	save($from_id."/step.txt","Set Contact");
 	var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"یک گزینه را انتخاب کنید.",
+        	'text'=>"به بخش تنظيمات كانتكت خوش آمديد:🌻",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
@@ -1512,7 +1517,7 @@ iKD Company0153™ `
                    ['text'=>"🔰 Comments"],['text'=>"🔰 Buttons"]
                 ],
                 [ 
-                 ['text'=>"🏠 برگشت به صفحه اصلی"]
+                 ['text'=>'🏘منوي اصلي🏠']
                 ]
             	],
             	'resize_keyboard'=>true
@@ -1523,7 +1528,7 @@ iKD Company0153™ `
 		if ($from_id == $admin) {
 	var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
-        	'text'=>"_به بخش مديريت پروفايل خوش آمديد👾_,
+        	'text'=>"_به بخش مديريت پروفايل خوش آمديد👾_",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
@@ -1534,7 +1539,7 @@ iKD Company0153™ `
                   ['text'=>"سن⚡️"]
                 ],
 		  [
-                  ['text'=>"سن⚡️"]
+                  ['text'=>"بيوگرافي⚡️"]
                 ],
 		
                 [
